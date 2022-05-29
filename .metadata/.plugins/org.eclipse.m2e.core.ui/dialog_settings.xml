@@ -26,6 +26,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.selenium.handson.SeleniumGrid"/>
 			<item value="com.selenium.handson.StreamsAndLambda"/>
 			<item value="com.selenium.handson.TableGrid"/>
 			<item value="com.selenium.handson.Automation"/>
@@ -34,6 +35,7 @@
 			<item value="com.selenium.handson"/>
 		</list>
 		<list key="artifactId">
+			<item value="SeleniumGrid"/>
 			<item value="StreamsAndLambda"/>
 			<item value="TableGrid"/>
 			<item value="Automation"/>

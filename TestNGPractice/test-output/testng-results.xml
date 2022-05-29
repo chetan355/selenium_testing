@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-29T21:55:52 IST" name="Suite" finished-at="2022-05-29T21:55:52 IST" duration-ms="99">
+    <groups>
+    </groups>
+    <test started-at="2022-05-29T21:55:52 IST" name="Test" finished-at="2022-05-29T21:55:52 IST" duration-ms="42">
+      <class name="test.Test2">
+        <test-method signature="model()[pri:0, instance:test.Test2@770d3326]" started-at="2022-05-29T21:55:52 IST" name="model" finished-at="2022-05-29T21:55:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- model -->
+        <test-method signature="price()[pri:0, instance:test.Test2@770d3326]" started-at="2022-05-29T21:55:52 IST" name="price" finished-at="2022-05-29T21:55:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- price -->
+      </class> <!-- test.Test2 -->
+      <class name="test.Test1">
+        <test-method signature="msg()[pri:0, instance:test.Test1@524d6d96]" started-at="2022-05-29T21:55:52 IST" name="msg" finished-at="2022-05-29T21:55:52 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- msg -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- Test -->
+    <test started-at="2022-05-29T21:55:52 IST" name="car" finished-at="2022-05-29T21:55:52 IST" duration-ms="3">
+      <class name="test.Test3">
+        <test-method signature="desktopLogin()[pri:0, instance:test.Test3@50b5ac82]" started-at="2022-05-29T21:55:52 IST" name="desktopLogin" finished-at="2022-05-29T21:55:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopLogin -->
+      </class> <!-- test.Test3 -->
+    </test> <!-- car -->
+  </suite> <!-- Suite -->
+</testng-results>
