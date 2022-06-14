@@ -15,7 +15,7 @@ public class DataDriver
 {
     public static void main( String[] args ) throws IOException
     {
-    	FileInputStream fis = new FileInputStream("C:\\Users\\Asus\\Documents\\dataTest.xlsx");
+    	FileInputStream fis = new FileInputStream("./src/main/resources/dataTest.xlsx");
     	XSSFWorkbook workbook = new XSSFWorkbook(fis);
     	
     	int no_of_sheets = workbook.getNumberOfSheets();
