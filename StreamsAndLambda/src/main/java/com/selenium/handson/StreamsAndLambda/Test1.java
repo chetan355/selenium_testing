@@ -105,13 +105,5 @@ public class Test1
 		System.out.println(result.get(3));
 
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 }

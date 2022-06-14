@@ -9,16 +9,27 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">42</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">car</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">45</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">car</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">107</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">119</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.Test1</td><td><a href="#m0">msg</a></td><td rowspan="1">1653841552309</td><td rowspan="1">5</td></tr><tr class="passedodd"><td rowspan="2">test.Test2</td><td><a href="#m1">model</a></td><td rowspan="1">1653841552318</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m2">price</a></td><td rowspan="1">1653841552320</td><td rowspan="1">1</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">car &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.Test3</td><td><a href="#m3">desktopLogin</a></td><td rowspan="1">1653841552377</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.Test1</td><td><a href="#m0">parameterTesting</a></td><td rowspan="1">1654618360228</td><td rowspan="1">6</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">test.Test1</td><td><a href="#m1">abc</a></td><td rowspan="1">1654618360270</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m2">credentials</a></td><td rowspan="1">1654618360210</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m3">msg</a></td><td rowspan="1">1654618360224</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="4">test.Test2</td><td><a href="#m4">model</a></td><td rowspan="3">1654618360254</td><td rowspan="3">3</td></tr><tr class="passedodd"><td><a href="#m5">model</a></td></tr><tr class="passedodd"><td><a href="#m6">model</a></td></tr><tr class="passedodd"><td><a href="#m7">price</a></td><td rowspan="1">1654618360260</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">test.Test1#msg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.Test2#model</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">test.Test2#price</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>car</h2><h3 id="m3">test.Test3#desktopLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>car</h2><h2>Test</h2><h3 id="m0">test.Test1#parameterTesting</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chetan.com</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at test.Test1.parameterTesting(Test1.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.Test1#abc</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.Test1#credentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>chetan244</td><td>dvbrebrbs</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.Test1#msg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.Test2#model</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user_3</td><td>pass_3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.Test2#model</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user_2</td><td>pass_2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.Test2#model</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user_1</td><td>pass_1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.Test2#price</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

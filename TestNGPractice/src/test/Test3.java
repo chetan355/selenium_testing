@@ -9,13 +9,13 @@ public class Test3 {
 		System.out.println("Web Checked");
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void mobileLogin() {
 		System.out.println("Mobile Checked");
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void desktopLogin() {
 		System.out.println("Desktop login");
 		
@@ -25,7 +25,7 @@ public class Test3 {
 		System.out.println("Desktop Checked");
 		
 	}
-	@Test
+	@Test(timeOut = 4000)
 	public void desktopSignout() {
 		System.out.println("Desktop Checked");
 		

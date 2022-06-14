@@ -2,7 +2,6 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="D:\practice_stuff\java\selenium\Introduction"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -26,15 +25,22 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.restapi.ApiTesting"/>
+			<item value="com.selenium.handson.DataDriven1"/>
+			<item value="com.selenium.handson.WorksMaven"/>
 			<item value="com.selenium.handson.SeleniumGrid"/>
 			<item value="com.selenium.handson.StreamsAndLambda"/>
 			<item value="com.selenium.handson.TableGrid"/>
 			<item value="com.selenium.handson.Automation"/>
 		</list>
 		<list key="groupId">
+			<item value="com.restapi"/>
 			<item value="com.selenium.handson"/>
 		</list>
 		<list key="artifactId">
+			<item value="ApiTesting"/>
+			<item value="DataDriven1"/>
+			<item value="WorksMaven"/>
 			<item value="SeleniumGrid"/>
 			<item value="StreamsAndLambda"/>
 			<item value="TableGrid"/>
@@ -74,5 +80,17 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
